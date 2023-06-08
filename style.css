@@ -7,6 +7,7 @@
     margin: 0;
     overflow: hidden;
     height: 100vh;
+    position: relative;
   }
   
   .calc {
@@ -74,4 +75,21 @@
   
   .calc-button-row:last-child {
     padding-bottom: 0;
+  }
+  #backhome{
+    border: 2px solid black;
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    margin: 2rem 0 0 2rem;
+    background-color: #d8d9db;
+    width: fit-content;
+  }
+  #backhome a {
+    text-decoration: none;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #backhome:hover{
+    background-color: #e3b584;
+    transition: .5s ease-in-out;
   }
