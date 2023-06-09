@@ -80,9 +80,10 @@
     border: 2px solid black;
     padding: .5rem 1.5rem;
     border-radius: 2rem;
-    margin: 2rem 0 0 2rem;
+    margin: 2rem 0 0 1rem;
     background-color: #d8d9db;
     width: fit-content;
+    text-decoration : none;
   }
   #backhome a {
     text-decoration: none;
